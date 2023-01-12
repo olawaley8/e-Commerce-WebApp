@@ -61,7 +61,7 @@ let sendEmail = async (email, text, res)=>{
             await transport.sendMail({
                 from: process.env.FROM_MAIL,
                 to: email,
-                text: text
+                text:  text
 
             })
     }
